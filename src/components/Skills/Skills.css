@@ -1,0 +1,19 @@
+.job-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.job1-flex {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  margin-right: 15px;
+  margin: 10px;
+}
+.img-skill {
+  width: 10vh;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.h1-skills {
+  margin-left: 5px;
+}

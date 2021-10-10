@@ -1,0 +1,106 @@
+.bg-color-job {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header-job {
+  background-color: #202020;
+}
+.job-header {
+  background-color: #202020;
+  padding: 20px;
+  margin: 11px;
+  border-radius: 15px;
+}
+
+.btn-failure {
+  background-color: blue;
+  padding: 7px 25px;
+  border-radius: 10px;
+  border: none;
+  margin: 25px;
+  cursor: pointer;
+}
+
+.flex-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.para-3 {
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.job-header1 {
+  background-color: #202020;
+  padding: 20px;
+  margin: 11px;
+  border-radius: 15px;
+  width: 40%;
+}
+.skill-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.job-flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.black {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.job-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.job1-flex {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  margin-right: 15px;
+}
+.job-flex1 {
+  display: flex;
+  align-items: center;
+}
+.pd {
+  padding: 7px;
+}
+.html5 {
+  font-size: 90px;
+}
+@media only screen and (max-width: 750px) {
+  .job-flex1 {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .job-header1 {
+    width: 31%;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .job-header1 {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .job-header1 {
+    width: 100%;
+  }
+}

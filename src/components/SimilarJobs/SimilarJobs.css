@@ -1,0 +1,9 @@
+.bg-color-job1 {
+  background-color: #202020;
+  margin: 10px;
+  border-radius: 20px;
+  width: 50vh;
+}
+.description {
+  font-size: 20px;
+}
